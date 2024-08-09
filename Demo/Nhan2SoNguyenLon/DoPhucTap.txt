@@ -1,0 +1,5 @@
+Thuật toán Karatsuba chia mỗi số thành hai phần, mỗi phần có độ dài khoảng n/2. Sau đó, nó thực hiện ba phép nhân đệ quy trên các phần này.
+Mỗi phép nhân đệ quy có độ phức tạp là  T(n/2).
+Do đó, ta có thể thiết lập phương trình đệ quy cho độ phức tạp như sau: T(n)=3T(n/2)+O(n)
+Phần O(n) ở đây đến từ các phép cộng, trừ và chia trong quá trình tách số và kết hợp kết quả.
+Giải phương trình đệ quy này bằng phương pháp Master Theorem, ta có: T(n) = O(n^log23)

@@ -1,0 +1,3 @@
+Gọi T(n) là độ phức tạp của thuật toán
+Thuật toán luôn chia mảng thành 2 nữa bằng nhau nên độ sâu đệ qui của nó luôn là O(logn).
+Tại mỗi bước công việc thực hiệncó độ phức tạp là O(n) do đó: T(n) = O(n*log(n)).

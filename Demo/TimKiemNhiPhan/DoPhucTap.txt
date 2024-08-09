@@ -1,0 +1,3 @@
+Gọi T(n) là độ phức tạp của thuật toán
+Công thức đệ quy để xác định độ phức tạp của thuật toán là T(n) = C, if n = 1 và T(n/2) + C, if n > 1
+Theo định lý tổng quát thì T(n) = O(logn)
